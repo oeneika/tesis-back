@@ -1,0 +1,76 @@
+{
+	"id": "1",
+	"nombre": "Alexander",
+	"apellido": "De Azevedo",
+	"correo": "deazevedoalexander@gmail.com",
+	"contraseña": "123456789",
+	"camaras": [
+		{
+			"id": 1,
+			"nombre": "Sala de la casa",
+			"bateria": "95%",
+			"girar_camara": "frontal",
+			"resolucion_video": "360p",
+			"flash": "true",
+			"encendido": "true",
+			"captura": [
+				{
+					"id": 1,
+					"nombre": "grabacion_1.mp4",
+					"tamanio": "180mb",
+					"duracion": "02:25:00",
+					"fecha": "2020/08/02",
+					"url": "www.tesis.com/grabacion_1.mp4",
+					"usuarios_capturados": [
+						{
+							"id": 1,
+							"edad": 18,
+							"sexo": "masculino",
+							"expresion_facial": "sonriendo",
+							"hora_captura": "18:00:45",
+							"fk_rostros": "id_rostros",
+							"url": "www.tesis.com/grabacion_1.mp4/rostro/1"
+						}
+					]
+				}
+			]
+		}
+	],
+	"usuario_camara": [
+		{
+			"rol": "invitado",
+			"camara": [
+				{
+					"id_camara": "id_camara"
+				}
+			]
+		}
+	],
+	"niveles_confianza": [
+		{
+			"id": 1,
+			"nombre": "Nivel 1 (Personas cercanas)",
+			"rostros": [
+				{
+					"id": 1,
+					"nombre": "Luis",
+					"apellido": "Mendez",
+					"url": "www.tesis.com/niveles-confianza/nivel-1/1/luismendez-rostro.jpg",
+					"sexo": "Masculino"
+				}
+			]
+		}
+	],
+	"notificaciones": [
+		{
+			"id": 1,
+			"imagen": "www.tesis.com/imagen/nivel-1/campana.jpg",
+			"titulo": "",
+			"descripcion": "",
+			"fecha": "",
+			"hora": "",
+			"fk_usuario_capturados": "id_usuario"
+			/*Debe estar tambien la persona a la que le llega ya sea uno mismo o al colaborador*/
+		}
+	]
+}

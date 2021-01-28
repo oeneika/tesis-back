@@ -1,0 +1,27 @@
+{
+	"name": "sistema_de_seguridad",
+	"version": "1.0.0",
+	"description": "tesis de Vladimir y Alexander",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"author": "Vladimir Blanco y Alexander De Azevedo",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
+		"body-parser": "^1.19.0",
+		"connect-multiparty": "^2.2.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-validator": "^6.9.2",
+		"jwt-simple": "^0.5.6",
+		"moment": "^2.29.1",
+		"mongoose": "^5.11.9",
+		"mongoose-pagination": "^1.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
